@@ -1,0 +1,164 @@
+/* ================================================ */
+/* ==================  FIRST BAR ================== */
+/* ================================================ */
+
+.firstBar {
+    border: solid rgba(0, 0, 0, 0.5);
+    margin: 15px; 
+    display: flex;
+    justify-content: space-around;
+}
+
+.picContainer{
+    border: 2px solid rgb(0, 0, 80);
+    margin: 10px;
+    height: 160px;
+    width: 20%;
+    display: flex;
+    justify-content: center; 
+    background-color: rgb(0, 0, 80);
+    border-radius: 3%;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.detailsContainer{
+    border: 2px solid rgb(0, 0, 80);
+    margin: 15px;
+    height: 160px;
+    width: 80%;
+    background-color: rgb(0, 0, 80);
+    border-radius: 1%;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo{
+    max-width: 100%;
+    max-height: 100%;
+    border: solid rgb(0, 0, 80);
+    border-radius:50%;
+}
+
+.name{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:  rgba(253, 249, 249, 0.899);
+    margin: 30px;
+}
+
+/* .nameContainer{
+    border: solid rgba(253, 249, 249, 0.899);
+} */
+
+.positionContainer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(253, 249, 249, 0.899);
+    margin-top: 30px; 
+    /* border: solid  rgba(253, 249, 249, 0.899); */
+}
+
+.blankDiv1{
+    border: solid rgba(253, 249, 249, 0.899);
+    background-color: rgba(253, 249, 249, 0.899);    
+    width: 4px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.secondBar {
+    border: solid rgba(0, 0, 0, 0.5);
+    margin: 20px; 
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ================================================ */
+/* ==================  SECOND BAR ================== */
+/* ================================================ */
+
+.secondBar {
+    border: solid rgba(0, 0, 0, 0.5);
+    margin: 20px; 
+    display: flex;
+    justify-content: space-around;
+}
+
+.careerContainer{
+    border: 2px solid rgb(0, 0, 80);
+    margin: 15px;
+    height: 160px;
+    width: 20%;
+    display: flex;
+    justify-content: center; 
+    background-color: rgb(0, 0, 80);
+    border-radius: 3%;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+    height: auto;
+    /* border: solid  rgba(253, 249, 249, 0.899); */
+}
+
+.careerDetailsContainer_1{
+    border: 2px solid rgb(0, 0, 80);
+    margin: 15px;
+    height: 160px;
+    width: 80%;
+    background-color: rgb(0, 0, 80);
+    border-radius: 1%;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+}
+
+.blankDiv2{
+    border: solid  rgba(253, 249, 249, 0.899);
+    background-color: rgba(253, 249, 249, 0.899);
+    width: 4px;
+    margin-top: 25px;
+    height: 35vh;
+}
+
+.careerDetailsContainer_1_Inside{
+    border: solid  rgba(253, 249, 249, 0.899);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin: 15px;
+    color: rgba(253, 249, 249, 0.899);
+    width: 55%;
+    padding: 10px;
+    height: 35vh;
+}
+
+.careerDetailsContainer_2_Inside{
+    border: solid  rgba(253, 249, 249, 0.899); 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin: 15px;
+    color: rgba(253, 249, 249, 0.899);
+    width: 40%;
+    padding: 10px;
+    height: 35vh;
+}
+
+.aboutContainer{
+    /* border: solid  rgba(253, 249, 249, 0.899);  */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin: 10px;
+    color: rgba(253, 249, 249, 0.899);
+    height: 35vh;  
+    display: inline-block;
+}
+
+
+/* ================================================ */
+/* ===========  DOM Styling through JS ============ */
+/* ================================================ */
+
+ a {
+    font-weight: bold;
+    padding: 5px;
+    text-transform:capitalize;
+    text-decoration: none;
+    color:  rgba(253, 249, 249, 0.899); 
+  }
